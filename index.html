@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | New Unity Project</title>
+    <title>Unity WebGL Player | My project (2)</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">New Unity Project</div>
+        <div id="unity-build-title">My project (2)</div>
       </div>
     </div>
     <script>
@@ -57,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/demo7.loader.js";
+      var loaderUrl = buildUrl + "/32.loader.js";
       var config = {
-        dataUrl: buildUrl + "/demo7.data",
-        frameworkUrl: buildUrl + "/demo7.framework.js",
-        codeUrl: buildUrl + "/demo7.wasm",
+        dataUrl: buildUrl + "/32.data",
+        frameworkUrl: buildUrl + "/32.framework.js",
+        codeUrl: buildUrl + "/32.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "New Unity Project",
-        productVersion: "1.0",
+        productName: "My project (2)",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
@@ -115,9 +115,7 @@
               });
             };
 
-      setTimeout(() => {
-        document.body.appendChild(script);
-      }, 5000);
+      setTimeout(() => document.body.appendChild(script), 5000);
 
     </script>
   </body>
